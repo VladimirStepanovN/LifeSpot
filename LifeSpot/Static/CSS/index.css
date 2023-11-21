@@ -56,3 +56,13 @@ header, footer, aside, body, .navbar, .video-container {
 header, footer, body, .video-container {
     background-color: Gainsboro;
 }
+
+input {
+    border: 2px solid darkgrey;
+    border-radius: 2px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid dimgrey;
+}
