@@ -4,14 +4,13 @@
     padding-top: 1%;
 }
 
-.navbar {
+.navbar p {
     color: darkgray;
     padding-left: 15%;
 }
 
 .navbar p:hover {
     color: aliceblue;
-
 }
 
 header {
