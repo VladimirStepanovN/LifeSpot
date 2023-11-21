@@ -9,27 +9,37 @@
             background-color: azure;
             padding: 10px;
         }
+
+        .video-container {
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
     <div class="bordered">
         <h1>LifeSpot - прямые трансляции с улиц</h1>
         <p>Покажем, что происходит прямо сейчас</p>
-        <!--Санкт-Петербург-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dhVzWNos718?si=hPb3OxKGMizMvtxo"
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dhVzWNos718?si=hPb3OxKGMizMvtxo"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
-        <!--Нью-Йорк-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/q0kPBRIPm6o?si=kSgBC6Yw-LaXnBvs"
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            </iframe>
+            <h3 class="video-title">Санкт-Петербург</h3>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q0kPBRIPm6o?si=kSgBC6Yw-LaXnBvs"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
-        <!--Лондон-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JplMzss6_YE?si=b7WecwuLGLmCdlY9"
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            </iframe>
+            <h3 class="video-title">Нью-Йорк</h3>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JplMzss6_YE?si=b7WecwuLGLmCdlY9"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+            </iframe>
+            <h3 class="video-title">Лондон</h3>
+        </div>
     </div>
 </body>
 </html>
