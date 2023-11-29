@@ -11,7 +11,13 @@
         <h1>LifeSpot - прямые трансляции с улиц</h1>
         <p>Покажем, что происходит прямо сейчас</p>
         <input type="text" oninput="filterContent( document.getElementsByTagName('input')[0].value.toLowerCase())" size=50%>
-        <script>sessionHandler();</script>
+        <!-- Внутренний скрипт с вызовами функций -->
+        <script>
+            // Создадим и обработаем сессию
+            let session = handleSession();
+            // Логируем в консоль.
+            sessionLog(session)
+        </script>
     </header>
     <aside id="sidebar">
         <div class="navbar">
