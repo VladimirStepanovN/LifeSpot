@@ -13,12 +13,16 @@
         <input type="text" oninput="filterContent(inputParseFunction)" size=50%>
         <!-- Внутренний скрипт с вызовами функций -->
         <script>
-            // Функция объявлена через declaration
-            const inputParseFunction = function() {
+            // Проверка на возраст
+            checkAge();
+            // сохранение сессии
+            handleSession();
+            // вывод данных сессии в консоль
+            sessionLog();
+            // функция для получения пользовательского ввода
+            const inputParseFunction = function () {
                 return document.getElementsByTagName('input')[0].value.toLowerCase();
             }
-            //let session = handleSession();
-            //sessionLog(session)
         </script>
     </header>
     <aside id="sidebar">
