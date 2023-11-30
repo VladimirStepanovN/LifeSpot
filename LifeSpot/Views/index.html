@@ -14,7 +14,7 @@
         <!-- Внутренний скрипт с вызовами функций -->
         <script>
             // Проверка на возраст
-            checkAge();
+            // checkAge();
             // сохранение сессии
             handleSession();
             // вывод данных сессии в консоль
@@ -23,6 +23,8 @@
             const inputParseFunction = function () {
                 return document.getElementsByTagName('input')[0].value.toLowerCase();
             }
+            // Всплывающее окно будет показано по таймауту
+            setTimeout(() => alert("Нравится LifeSpot? " + '\n' + "Подпишитесь на наш Instagram @lifespot999!"), 30000);
         </script>
     </header>
     <aside id="sidebar">
